@@ -1,0 +1,98 @@
+[
+    {
+      "id": "01",
+      "img": "https://img.freepik.com/free-photo/indian-traditional-female-jewelry-bangles_57665-5290.jpg?w=900",
+      "name": "Diamond Bangles",
+      "about": "Made from authentic diamonds in UK.",
+      "": "Fashion & Fit",
+      "price": "$700"
+    },
+    {
+        "id": "02",
+        "img": "https://img.freepik.com/free-vector/realistic-pair-golden-wedding-rings_52683-13737.jpg?t=st=1648242279~exp=1648242879~hmac=e8e35f4266431a6d5cc8c928252c0aad230e82ad966d1ab3a802cc5e9a946607&w=740",
+        "name": "24K Gold Rings",
+        "about": "Original 24K Gold bands for women. ",
+        "company": "Fashion & Fit",
+        "price": "$670"
+      },
+      {
+        "id": "03",
+        "img": "https://img.freepik.com/free-photo/vertical-closeup-shot-female-wearing-silver-necklace-with-beautiful-lock-pendant_181624-27833.jpg?t=st=1648242489~exp=1648243089~hmac=cc9cc622d43216d67244eaf3118f64d937fefab701b59bcae1846a6ab67110ca&w=360",
+        "name": "Pendant",
+        "about": "Classic platinum pendant for women. Perfect for any ocassion.",
+        "company": "Fashion & Fit",
+        "price": "$1220"
+      },
+      {
+        "id": "04",
+        "img": "https://img.freepik.com/free-photo/fashionable-beads-mannequin_158469-2481.jpg?w=740",
+        "name": "24K Gold Nefertiti Neckpiece",
+        "about": "Original design inspired by ancient queen Nefertiti's handmade neckpiece.",
+        "company": "Fashion & Fit",
+        "price": "$3000"
+      },
+      {
+        "id": "05",
+        "img": "https://img.freepik.com/free-photo/gold-silver-diamond-ring-earrings-luxury-jewelry-box_293060-290.jpg?w=900",
+        "name": "Diamond Ring",
+        "about": "Classical diamond originated from Australia's most popular diamond pieces.",
+        "company": "Fashion & Fit",
+        "price": "$620"
+      },
+      {
+        "id": "06",
+        "img": "https://img.freepik.com/free-photo/luxury-jewelry-wedding-diadem_158469-2422.jpg?w=900",
+        "name": "Diamond Crown",
+        "about": "Most elegant crown originated from USA.",
+        "company": "Fashion & Fit",
+        "price": "$4020"
+      },
+      {
+        "id": "07",
+        "img": "https://img.freepik.com/free-photo/elegant-caucasian-brunette-woman-has-earring-ear-close-up-bijouterie-fashion-concept_239245-3776.jpg?w=900",
+        "name": "White Gold Earring",
+        "about": "Starring combination of diamond and platinum.",
+        "company": "Fashion & Fit",
+        "price": "$780"
+      },
+      {
+        "id": "08",
+        "img": "https://img.freepik.com/free-photo/gold-earrings-with-natural-diamonds-black-background_319110-2637.jpg?w=900",
+        "name": "Ear Studs",
+        "about": "Combined with Copper gold and diamonds.",
+        "company": "Fashion & Fit",
+        "price": "$540"
+      },
+      {
+        "id": "09",
+        "img": "https://img.freepik.com/free-photo/jewelry-long-dangling-earrings-white-gold-with-natural-diamonds-topaz_319110-2691.jpg?w=900",
+        "name": "Ocean Blue",
+        "about": "Made from platinum and special sapphire which we call Ocean Blue.",
+        "company": "Fashion & Fit",
+        "price": "$850"
+      },
+      {
+        "id": "10",
+        "img": "https://img.freepik.com/free-photo/white-pearl-earring-with-prong-studded-diamond-halo-earring-yellow-gold_319110-3389.jpg?w=900",
+        "name": "Elegant Studs",
+        "about": "Combination of pearl and diamond, originated from Italy.",
+        "company": "Fashion & Fit",
+        "price": "$500"
+      },
+      {
+        "id": "11",
+        "img": "https://img.freepik.com/free-photo/jewelry-diamond-gold-shop-with-rings-necklaces-luxury-retail-store-window-display-showcase_293060-6517.jpg?w=900",
+        "name": "Layered Pendants",
+        "about": "Combined # layers to enlightened any occasion. ",
+        "company": "Fashion & Fit",
+        "price": "$1220"
+      },
+      {
+        "id": "12",
+        "img": "https://img.freepik.com/free-photo/beautiful-girl-wears-chic-earrings_199620-1629.jpg?w=900",
+        "name": "Pearl Earring",
+        "about": "Together pearl,diamonds and platinum in one earring.",
+        "company": "Fashion & Fit",
+        "price": "$600"
+      }
+    ]
