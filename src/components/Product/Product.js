@@ -1,9 +1,14 @@
+// Child
 import React from 'react';
 import './Product.css';
 import { RiShoppingCartFill } from "react-icons/ri";
 
 const Product = (props) => {
-    const { name, img, company, about, price } = props.product;
+    const {handleAddToCart, product} = props;
+    const { name, img, company, about, price } = product;
+    
+
+
     return (
         <div className='product'>
             <img src={img} alt="" />
@@ -13,7 +18,7 @@ const Product = (props) => {
                 <p><small> By {company}</small></p>
                 <h3> {price}</h3>
             </div>
-            <button className='cart-btn'>
+            <button onClick={() => handleAddToCart(product)}  className='cart-btn'>
                 <p> Add to Cart <RiShoppingCartFill></RiShoppingCartFill></p>
             </button>
         </div>
