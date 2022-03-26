@@ -4,7 +4,7 @@
       "img": "https://img.freepik.com/free-photo/indian-traditional-female-jewelry-bangles_57665-5290.jpg?w=900",
       "name": "Diamond Bangles",
       "about": "Made from authentic diamonds in UK.",
-      "": "Fashion & Fit",
+      "company": "Fashion & Fit",
       "price": "$700"
     },
     {
@@ -17,9 +17,9 @@
       },
       {
         "id": "03",
-        "img": "https://img.freepik.com/free-photo/vertical-closeup-shot-female-wearing-silver-necklace-with-beautiful-lock-pendant_181624-27833.jpg?t=st=1648242489~exp=1648243089~hmac=cc9cc622d43216d67244eaf3118f64d937fefab701b59bcae1846a6ab67110ca&w=360",
-        "name": "Pendant",
-        "about": "Classic platinum pendant for women. Perfect for any ocassion.",
+        "img": "https://img.freepik.com/free-photo/portrait-young-gorgeous-woman-dressed-jewelry-set-necklace-ring-bracelet-earrings-pretty-blue-eyed-model-is-demonstrating-attractive-makeup-manicure_353119-75.jpg?w=900",
+        "name": "Classic Necklace Set",
+        "about": "Full necklace with earring,ring and bracelet for women.",
         "company": "Fashion & Fit",
         "price": "$1220"
       },
@@ -83,7 +83,7 @@
         "id": "11",
         "img": "https://img.freepik.com/free-photo/jewelry-diamond-gold-shop-with-rings-necklaces-luxury-retail-store-window-display-showcase_293060-6517.jpg?w=900",
         "name": "Layered Pendants",
-        "about": "Combined # layers to enlightened any occasion. ",
+        "about": "Combined layers to enlightened any occasion. ",
         "company": "Fashion & Fit",
         "price": "$1220"
       },
