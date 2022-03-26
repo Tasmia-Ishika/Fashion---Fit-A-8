@@ -10,10 +10,7 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
     const [pickOne, setPickOne] = useState([]);
 
-    const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
-    }
+
 
     // Choose any one button
     const arrayLength = cart.length;
@@ -29,8 +26,21 @@ const Shop = () => {
             .then(data => setProducts(data));
     }, []);
 
+    const handleAddToCart = (product) => {
+        const newCart = [...cart, product];
+        if (newCart.length > 4) {
+            alert("You can only choose 4 items.")
+        }
+        else {
+            setCart(newCart);
+        }
 
+    }
+    const resetCart = () => {
+        setCart([]);
+        setPickOne([]);
 
+    }
     return (
         <div className='parent-container'>
             <div className='products-container'>
@@ -52,13 +62,9 @@ const Shop = () => {
 
                 </div>
                 <div>
-                    <button onClick={() => pickRandomItem()}>Pick One</button>
-
-
+                    <button className='btn-fix' onClick={() => pickRandomItem()}>Choose for Me</button>
                     <Data pickOne={pickOne}></Data>
-
-
-                    <p><button>Reset</button></p>
+                    <p><button className='btn-fix' onClick={() => resetCart()}>Reset Cart</button></p>
                 </div>
             </div>
 

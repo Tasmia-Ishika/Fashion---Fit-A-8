@@ -1,5 +1,8 @@
  .showing-item img{
     width: 60%;
-    /* height: 70px; */
-    
-} 
+ } 
+ .name-fix{
+     font-size: larger;
+     font-weight: 700;
+     font-style: oblique;
+ }
