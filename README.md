@@ -1,6 +1,6 @@
 ## Fashion And Fit
 
-Live site of this project [See link](https://fashion-and-fit-by-ishikaa.netlify.app/).
+Live site of this project [See link]( https://fashion-and-fit-store.netlify.app/).
 
 ## This is a Jewelry Store project made with React JS. 
 
