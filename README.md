@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+## Fashion And Fit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site of this project [See link](https://fashion-and-fit-by-ishikaa.netlify.app/).
 
-## Available Scripts
+## This is a Jewellry Store project made with React JS. 
 
-In the project directory, you can run:
+In this site you can find exclusive Accessories and Jewellries:
 
 ### `npm start`
 

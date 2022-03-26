@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Shop from './components/Shop/Shop';
+import Data from './components/PickOne/Data';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar></Navbar>
       <Shop></Shop>
       <br />
+
       <div>
         <h1 className='question'>How React works?</h1>
         <p className='answer'>ANSWER : React is a JavaScript library that creates user interfaces (UIs) in a effective and predictable way by using declarative code. We can use it to build single page applications and mobile apps, or to build complex apps if we utilise it with other libraries.

@@ -2,12 +2,13 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import { BsFillStarFill } from "react-icons/bs";
-import './Shop.css'
+import './Shop.css';
+import Data from '../PickOne/Data';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
-    // console.log(cart);
+    const [pickOne, setPickOne] = useState([]);
 
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
@@ -19,7 +20,7 @@ const Shop = () => {
     const pickRandomItem = () => {
         const selectRandomly = Math.floor(Math.random() * (arrayLength));
         const chooseItem = cart[selectRandomly]
-        console.log(chooseItem);
+        setPickOne(chooseItem);
     }
 
     useEffect(() => {
@@ -43,21 +44,22 @@ const Shop = () => {
 
             <div className="cart-container">
                 <h4>Selected Items</h4>
-                <p>
+                <div>
+
                     {
                         cart.map((item) => (<h3 key={item.id}><BsFillStarFill></BsFillStarFill> <img id='img-length' src={item.img} alt="" /> {item.name}</h3>))
                     }
-                </p>
 
-                <div>
-                    <p><button onClick={() => pickRandomItem()}>Pick One</button>
-                    {
-
-                    }
-                    </p>
-                    <p> <button>Reset</button></p>
                 </div>
+                <div>
+                    <button onClick={() => pickRandomItem()}>Pick One</button>
 
+
+                    <Data pickOne={pickOne}></Data>
+
+
+                    <p><button>Reset</button></p>
+                </div>
             </div>
 
         </div>
