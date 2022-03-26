@@ -4,9 +4,9 @@ import './Product.css';
 import { RiShoppingCartFill } from "react-icons/ri";
 
 const Product = (props) => {
-    const {handleAddToCart, product} = props;
+    const { handleAddToCart, product } = props;
     const { name, img, company, about, price } = product;
-    
+
 
 
     return (
@@ -18,9 +18,11 @@ const Product = (props) => {
                 <p><small> By {company}</small></p>
                 <h3> {price}</h3>
             </div>
-            <button onClick={() => handleAddToCart(product)}  className='cart-btn'>
-                <p> Add to Cart <RiShoppingCartFill></RiShoppingCartFill></p>
+
+            <button onClick={() => handleAddToCart(product)} className='cart-btn'>
+                <p><RiShoppingCartFill></RiShoppingCartFill>  Add to Cart </p>
             </button>
+
         </div>
     );
 };

@@ -11,8 +11,13 @@ const Shop = () => {
 
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
-        setCart( newCart);
+        setCart(newCart);
 
+    }
+
+    // Choose any one button
+    const chooseItem = () => {
+        console.log('going to fuck')
     }
 
     useEffect(() => {
@@ -33,14 +38,21 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
+
             <div className="cart-container">
                 <h4>Selected Items</h4>
-
                 <p>
                     {
-                        cart.map((item)=> (<h3 key={item.id}><BsFillStarFill></BsFillStarFill> {item.name}</h3>))}
+                        cart.map((item) => (<h3 key={item.id}><BsFillStarFill></BsFillStarFill> <img id='img-length' src={item.img} alt=""/> {item.name}</h3>))}
                 </p>
+
+                <div>
+                    <p><button onClick={() => chooseItem()}>Pick One</button></p>
+                    <p> <button>Reset</button></p>
+                </div>
+
             </div>
+
         </div>
 
     );
