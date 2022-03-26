@@ -7,17 +7,19 @@ import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
-    console.log(cart);
+    // console.log(cart);
 
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
         setCart(newCart);
-
     }
 
     // Choose any one button
-    const chooseItem = () => {
-        console.log('going to fuck')
+    const arrayLength = cart.length;
+    const pickRandomItem = () => {
+        const selectRandomly = Math.floor(Math.random() * (arrayLength));
+        const chooseItem = cart[selectRandomly]
+        console.log(chooseItem);
     }
 
     useEffect(() => {
@@ -43,11 +45,16 @@ const Shop = () => {
                 <h4>Selected Items</h4>
                 <p>
                     {
-                        cart.map((item) => (<h3 key={item.id}><BsFillStarFill></BsFillStarFill> <img id='img-length' src={item.img} alt=""/> {item.name}</h3>))}
+                        cart.map((item) => (<h3 key={item.id}><BsFillStarFill></BsFillStarFill> <img id='img-length' src={item.img} alt="" /> {item.name}</h3>))
+                    }
                 </p>
 
                 <div>
-                    <p><button onClick={() => chooseItem()}>Pick One</button></p>
+                    <p><button onClick={() => pickRandomItem()}>Pick One</button>
+                    {
+
+                    }
+                    </p>
                     <p> <button>Reset</button></p>
                 </div>
 

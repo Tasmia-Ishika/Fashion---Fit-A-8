@@ -27,7 +27,17 @@
 .App-link {
   color: #61dafb;
 }
-.writings
+.question{
+  color: palevioletred;
+  font-size: xx-large;
+  font-weight: 700;
+  font-style: italic;
+}
+.answer{
+  font-size: large;
+  font-style: oblique;
+  margin: 10px;
+}
 
 
 @keyframes App-logo-spin {
